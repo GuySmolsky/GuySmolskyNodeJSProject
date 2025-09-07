@@ -6,7 +6,7 @@ import { connectToDb } from "./DB/dbService.js";
 import chalk from "chalk";
 import "dotenv/config";
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 app.use(
   cors({
