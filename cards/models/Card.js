@@ -3,7 +3,6 @@ import { model, Schema } from "mongoose";
 import {
   CARD_EMAIL,
   DEFAULT_VALIDATION,
-  EMAIL,
   PHONE,
   URL,
 } from "../../helpers/mongooseValidators.js";
